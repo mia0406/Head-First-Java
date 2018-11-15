@@ -1,5 +1,5 @@
 
-## Headfirst Java Chapter 5 Summary
+## Headfirst Java Chapter 5. Method
 #### Ⅰ. 클래스 개발
 * 방식
 1. 클래스에서 어떤 것을 해야 하는지를 파악
