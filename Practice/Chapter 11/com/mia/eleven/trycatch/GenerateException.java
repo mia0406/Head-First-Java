@@ -4,7 +4,7 @@ public class GenerateException {
 
 	public void takeRisk() throws Exception{
 		
-		throw new Exception();
+		throw new Exception(); // Exception을 개발자(사용자)가 임의로 던져줄 때 사용
 	}
 	
 	public static void main(String[] args) {
