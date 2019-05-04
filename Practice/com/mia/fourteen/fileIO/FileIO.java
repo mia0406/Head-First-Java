@@ -7,10 +7,10 @@ public class FileIO {
 	public static void main(String[] args) {
 		
 		// 이미 존재하는 파일을 나타내는 File 객체 생성
-		File f = new File("C:\\Mia\\test\\file.txt");
+		File f = new File("C:/Mia/test/file.txt");
 		
 		// 새로운 디렉토리 생성
-		File dir = new File("C:\\Mia\\test\\chapter14");
+		File dir = new File("C:/Mia/test/chapter14");
 		dir.mkdir();
 		
 		// 디렉토리에 들어있는 내용의 목록 출력
@@ -27,6 +27,7 @@ public class FileIO {
 		System.out.println(dir.getAbsolutePath());
 		
 		// 파일/디렉토리 삭제 (성공했을 경우 true 리턴)
-		boolean isDeleted = dis.delete();
+		boolean isDeleted = f.delete();
+		System.out.println(isDeleted);
 	}
 }
