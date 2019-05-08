@@ -9,8 +9,7 @@ public class DailyAdviceClient {
 		
 		try {
 			
-			//Socket s = new Socket("127.0.0.1", "4242");
-			Socket s = new Socket();
+			Socket s = new Socket("127.0.0.1", 4242);
 			
 			InputStreamReader streamReader = new InputStreamReader(s.getInputStream());
 			BufferedReader reader = new BufferedReader(streamReader);
